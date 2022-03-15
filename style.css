@@ -162,7 +162,7 @@ html{
         }
 
             #hobby-1 .hobby-top{
-                background-image: url('/css/img/hobby-background1.png');
+                background-image: url(./css/img/hobby-background1.png);
                 background-size: cover;
             }
 
@@ -177,7 +177,7 @@ html{
         }
 
             #hobby-2 .hobby-top{
-                background-image: url('/css/img/hobby-background2.png');
+                background-image: url(./css/img/hobby-background2.png);
                 background-size: cover;
             }
 
