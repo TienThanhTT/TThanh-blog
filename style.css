@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading{
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    letter-spacing: 4px;
+}
+
+    .heading .ti{
+        height: 30px;
+        font-size: 20px;
+    }
+
+.hobby-top{
+    height: 500px;
+    margin: 16px 16px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+    
+.phr a{
+        
+    color: #000;
+}
+
+#container{
+    padding: 0 30px;
+}
+
+#container #header {
+    height: 30px ;
+    height: 50px;
+}
+
+     #header #header-logo{
+        display: inline-block;
+        width: 20%;
+        text-align: center;
+    }
+
+     #header #nav{
+        width: 80%;
+        float: right;
+    }
+
+        #nav li{
+            display: inline-block;
+
+        }
+
+        #nav li:hover{
+            background-color: #ccc;
+        }
+
+        #nav  li > a{
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+            line-height: 50px;
+            padding: 0 24px;
+            text-transform: uppercase;
+        }
+
+        #nav li:hover a{
+
+            color: #fff;
+        }
+
+        #nav li:hover #subnav{
+            display: block;
+        }
+
+        #nav #subnav{
+            position: absolute;
+            background-color: #ccc;
+            display: none;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+
+            #subnav p{
+                font-size: 20px;
+            }
+
+
+#container #content{
+    
+}
+
+    #content #slide{
+        background-image: url('/css/img/background2.jpg');
+        height: 1000px;
+        margin: 40px 0;
+        text-align: center;
+    }
+
+        #slide h3{
+            position: absolute;
+            transform: translateX(180%);
+            
+        }
+
+    #content #about{
+        height: 680px;
+        margin-bottom: 40px;
+    }
+
+        #about #about-pic{
+            width: 50%;
+            text-align: center;
+            display: inline-block;
+        }
+
+            #about-pic img{
+                text-align: center;
+            }
+
+            #about-pic img:hover{
+                opacity: 0.8;
+            }
+        
+        #about #about-phr{
+            width: 50%;
+            float: right;
+            text-align: center;
+        }
+
+            #about-phr p{
+                opacity: 0.6;
+            }
+
+         .phr{
+            width: 80%;
+            font-size: 20px;
+            line-height: 40px;
+            text-align: center;
+        }
+
+        .phr h3{
+            text-transform: uppercase;
+        }
+        
+            
+    #content #hobby{
+        height: 1100px;
+        background-color: rgb(53,139,188);
+        text-align: center;
+    }
+
+        #hobby #hobby-1{
+            width: 50%;
+            display: inline-block;
+            
+        }
+
+            #hobby-1 .hobby-top{
+                background-image: url('/css/img/hobby-background1.png');
+                background-size: cover;
+            }
+
+            #hobby-1 .hobby-top:hover, #hobby #hobby-2:hover{
+                opacity: 0.8;
+                
+            }
+
+        #hobby #hobby-2{
+            width: 50%;
+            float: right;
+        }
+
+            #hobby-2 .hobby-top{
+                background-image: url('/css/img/hobby-background2.png');
+                background-size: cover;
+            }
+
+    #content #contact{
+        
+        height: 300px;
+        padding: 0 16%;
+    }
+
+        #contact #phone{
+            width: 50%;
+            display: inline-block;
+            line-height: 2;
+        }
+
+            #phone .phone-icon{
+                font-size: 20px;
+            }
+
+        #contact #send{
+            width: 50%;
+            float: right;
+            text-align: center;
+        }
+
+            #send .input{
+                width: 300px;
+                margin-top: 10px;
+                padding: 16px 0;
+            }
+
+            #send #btn{
+                margin-top: 20px;
+            }
+
+            #send #btn button:hover{
+                background-color: red;
+            }
+
+                #btn p{
+                    font-size: 16px;
+                    padding: 10px;
+                }
+
+    #footer{
+        height: 150px;
+        background-color: #ccc;
+        text-align: center;
+    }
+
+    #footer #footer-icon{
+        padding-top: 80px;
+    }
+
+        #footer-icon a{
+            padding: 10px;
+        }
+
+        #footer-icon a:hover{
+            opacity: 0.6;
+        }
