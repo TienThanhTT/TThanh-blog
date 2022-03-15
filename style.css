@@ -96,7 +96,7 @@ html{
 }
 
     #content #slide{
-        background-image: url('/css/img/background2.jpg');
+        background-image: url(./css/img/background2.jpg);
         height: 1000px;
         margin: 40px 0;
         text-align: center;
